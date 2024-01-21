@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Website</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        #question {
+            margin-top: 50px;
+            font-size: 24px;
+        }
+        #bear {
+            margin-top: 20px;
+            width: 100px;
+        }
+        #options {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        #no {
+            pointer-events: none; /* Disable clicking on the 'No' button */
+        }
+    </style>
+</head>
+<body>
+    <div id="question">Johnny will you go out with me?</div>
+    <img id="bear" src="bluber.png" alt="Blue Bear">
+    <div id="options">
+        <a href="https://https://wa.me/77077121585?text=Hi!%20Yes%20i%20will%20go%20out%20with%20you!" target="_blank">
+            <button id="yes">Yes</button>
+        </a>
+        <button id="no" onclick="alert('Maybe next time')">No</button>
+    </div>
+</body>
+</html>
